@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>descendant css selctro</title>
+  <style>
+    #header h1,h2{color: red;}
+    #section h1,#section h2{ color: blue;}
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1 class="title">타이틀</h1>
+    <div id="nav">
+      <h1>네비게이션</h1>
+      <h2>후손 적용 될까?</h2>
+    </div>
+  </div>
+  <div id="section">
+    <h1 class="title">컨텐츠</h1>
+    <h2>후손 적용 될까?</h2>
+    <p>독자가 페이지의 레이아웃을 볼 때 페이지의 읽을 수 있는 콘텐츠에 주의가 산만해진다는 것은 오래 전부터 확립된 사실입니다. Lorem Ipsum을 사용하는 요점은 'Content here, content here'를 사용하는 것과는 대조적으로 문자의 정규 분포가 다소 있어 읽기 쉬운 영어처럼 보입니다. 현재 많은 탁상 출판 패키지와 웹 페이지 편집기는 기본 모델 텍스트로 Lorem Ipsum을 사용하고 있으며 'lorem ipsum'을 검색하면 아직 초기 단계에 있는 많은 웹 사이트를 발견할 수 있습니다. 때로는 우연히, 때로는 의도적으로(유머 주입 등) 다양한 버전이 수년에 걸쳐 진화했습니다.</p>
+  </div>
+</body>
+</html>
