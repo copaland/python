@@ -1,3 +1,5 @@
+'힘을 주는 말 VBA 코드
+
 Sub CreateSlidesFromExcel()
 
     Dim pptApp As Object
